@@ -16,7 +16,7 @@ Create an rails API endpoint to transition an inactive connection to active
 |----|-----|--------|
 |send_confirmation_msg|Boolean|N|
 
-1. Update the booking state from `inactive` to `active` (see confirmation rules)
+1. Update the connection state from `inactive` to `active` (see confirmation rules)
 
 2. Set the timestamp for `activated_at` and set `activated_by` to the correct user
 
