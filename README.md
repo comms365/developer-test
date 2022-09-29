@@ -4,6 +4,8 @@ Within our sample application we have inactive connections that need to be activ
 
 Upon activating a connection, the associated user needs to receive an email telling them the IP address of the connection and when it was activated
 
+This application uses http basic authentication. see `application_controller.rb` for details
+
 ## Requirements
 
 Create an rails API endpoint to transition an inactive connection to active
